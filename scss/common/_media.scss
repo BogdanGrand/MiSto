@@ -1,0 +1,53 @@
+@media only screen and (min-width: 768px) {
+    .menu__sub{
+        transform: translate(0px, 10%);
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: all 0.3s ease 0s;
+    }
+  }
+/* Extra large devices (large laptops and desktops, 1200px and up) */ 
+@media only screen and (max-width: 1200px) {
+    .container_bgd{
+        max-width: 970px;
+        
+    }
+ }
+ @media only screen and (max-width: 992px) {
+    .container_bgd{
+        max-width: 750px;
+    }
+    .top__footer{
+        justify-content: center;    
+    }
+ }
+ @media only screen and (max-width: 768px) {
+    .container_bgd{
+        max-width: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .top__content{
+        flex-wrap: wrap;
+    }
+    .bn{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .clothes__inner{
+        justify-content: center;
+    }
+    .footer__content{
+        justify-content: center;
+        gap: 2rem;
+    }
+    .top__black__inner{
+        justify-content: center;
+        gap: 2rem;
+    }
+    .black__inner__ceter{
+        gap: 1rem;
+        justify-content: center;
+    }
+}         

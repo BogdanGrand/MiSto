@@ -1,0 +1,81 @@
+@mixin main_title_service {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+
+    /* dark */
+
+    color: #121212;
+
+}
+@mixin nav_desc_service {
+    font-family: 'League Spartan';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    font-style: normal;
+    /* identical to box height */
+
+    /* dark */
+
+    color: #121212;
+}
+@mixin h2_title_service {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+    /* identical to box height */
+
+    /* dark */
+
+    color: #121212;
+}
+@mixin h3_title_service {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+    /* dark */
+
+    color: #121212;
+}
+@mixin price_title_service {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    /* dark */
+
+    color: #121212;
+}
+@mixin clothes_title_service {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    /* dark */
+
+    color: #121212;
+
+    opacity: 0.6;
+}
+//  COLORS
+$black:#121212;
+$grey:#E6E6E6;
+$white:#F8F8F8;
+$sale:#E91E63;
+$yellow:#F0CC84;
